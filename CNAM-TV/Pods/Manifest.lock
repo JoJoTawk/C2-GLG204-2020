@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 0f5a1e3521e7a5f9a382e2312405e926a3d03814
+PODS:
+  - libbambuser-ios (0.9.29)
+
+DEPENDENCIES:
+  - libbambuser-ios (= 0.9.29)
+
+SPEC REPOS:
+  trunk:
+    - libbambuser-ios
+
+SPEC CHECKSUMS:
+  libbambuser-ios: fe7dbc6d718a4a246a3f5901da70ce07bc209136
+
+PODFILE CHECKSUM: f9110f363b211c91249c99f62633e6cc65b07d3a
 
 COCOAPODS: 1.9.2

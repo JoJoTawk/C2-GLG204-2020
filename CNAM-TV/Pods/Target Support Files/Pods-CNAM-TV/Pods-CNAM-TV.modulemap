@@ -1,0 +1,6 @@
+framework module Pods_CNAM_TV {
+  umbrella header "Pods-CNAM-TV-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7422D6925005EDC0015599D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D6825005EDC0015599D /* libz.tbd */; };
+		B7422D6B25005EE40015599D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D6A25005EE40015599D /* libc++.tbd */; };
+		B7422D6D25005EEC0015599D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D6C25005EEC0015599D /* AudioToolbox.framework */; };
+		B7422D6F25005EF40015599D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D6E25005EF40015599D /* AVFoundation.framework */; };
+		B7422D7125005EFA0015599D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7025005EFA0015599D /* CoreGraphics.framework */; };
+		B7422D7325005F000015599D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7225005F000015599D /* CoreLocation.framework */; };
+		B7422D7525005F050015599D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7425005F050015599D /* CoreMedia.framework */; };
+		B7422D7725005F0C0015599D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7625005F0C0015599D /* CoreTelephony.framework */; };
+		B7422D7925005F120015599D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7825005F120015599D /* CoreVideo.framework */; };
+		B7422D7B25005F1C0015599D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7A25005F1C0015599D /* Foundation.framework */; };
+		B7422D7D25005F240015599D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7C25005F240015599D /* QuartzCore.framework */; };
+		B7422D7F25005F2A0015599D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D7E25005F2A0015599D /* SystemConfiguration.framework */; };
+		B7422D8125005F2F0015599D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D8025005F2F0015599D /* UIKit.framework */; };
+		B7422D8325005F350015599D /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7422D8225005F350015599D /* VideoToolbox.framework */; };
 		B7E263882500547000A84E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E263872500547000A84E96 /* AppDelegate.swift */; };
 		B7E2638A2500547000A84E96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E263892500547000A84E96 /* SceneDelegate.swift */; };
 		B7E2638C2500547000A84E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2638B2500547000A84E96 /* ViewController.swift */; };
@@ -19,6 +33,21 @@
 /* Begin PBXFileReference section */
 		07481F69D3C310D39F4679C5 /* Pods_CNAM_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNAM_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AE10CF4C3C39B1C53BD3F9 /* Pods-CNAM-TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNAM-TV.debug.xcconfig"; path = "Target Support Files/Pods-CNAM-TV/Pods-CNAM-TV.debug.xcconfig"; sourceTree = "<group>"; };
+		B7422D6525005DC30015599D /* CNAM-TV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CNAM-TV-Bridging-Header.h"; sourceTree = "<group>"; };
+		B7422D6825005EDC0015599D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B7422D6A25005EE40015599D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B7422D6C25005EEC0015599D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B7422D6E25005EF40015599D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B7422D7025005EFA0015599D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7422D7225005F000015599D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B7422D7425005F050015599D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B7422D7625005F0C0015599D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B7422D7825005F120015599D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B7422D7A25005F1C0015599D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7422D7C25005F240015599D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B7422D7E25005F2A0015599D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B7422D8025005F2F0015599D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7422D8225005F350015599D /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		B7E263842500547000A84E96 /* CNAM-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CNAM-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E263872500547000A84E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7E263892500547000A84E96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +64,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7422D8325005F350015599D /* VideoToolbox.framework in Frameworks */,
+				B7422D8125005F2F0015599D /* UIKit.framework in Frameworks */,
+				B7422D7F25005F2A0015599D /* SystemConfiguration.framework in Frameworks */,
+				B7422D7D25005F240015599D /* QuartzCore.framework in Frameworks */,
+				B7422D7B25005F1C0015599D /* Foundation.framework in Frameworks */,
+				B7422D7925005F120015599D /* CoreVideo.framework in Frameworks */,
+				B7422D7725005F0C0015599D /* CoreTelephony.framework in Frameworks */,
+				B7422D7525005F050015599D /* CoreMedia.framework in Frameworks */,
+				B7422D7325005F000015599D /* CoreLocation.framework in Frameworks */,
+				B7422D7125005EFA0015599D /* CoreGraphics.framework in Frameworks */,
+				B7422D6F25005EF40015599D /* AVFoundation.framework in Frameworks */,
+				B7422D6D25005EEC0015599D /* AudioToolbox.framework in Frameworks */,
+				B7422D6B25005EE40015599D /* libc++.tbd in Frameworks */,
+				B7422D6925005EDC0015599D /* libz.tbd in Frameworks */,
 				E7FBD913C5558B0EC32DA88B /* Pods_CNAM_TV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +88,20 @@
 		9ACB9C61BE29BC6754C6BCED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7422D8225005F350015599D /* VideoToolbox.framework */,
+				B7422D8025005F2F0015599D /* UIKit.framework */,
+				B7422D7E25005F2A0015599D /* SystemConfiguration.framework */,
+				B7422D7C25005F240015599D /* QuartzCore.framework */,
+				B7422D7A25005F1C0015599D /* Foundation.framework */,
+				B7422D7825005F120015599D /* CoreVideo.framework */,
+				B7422D7625005F0C0015599D /* CoreTelephony.framework */,
+				B7422D7425005F050015599D /* CoreMedia.framework */,
+				B7422D7225005F000015599D /* CoreLocation.framework */,
+				B7422D7025005EFA0015599D /* CoreGraphics.framework */,
+				B7422D6E25005EF40015599D /* AVFoundation.framework */,
+				B7422D6C25005EEC0015599D /* AudioToolbox.framework */,
+				B7422D6A25005EE40015599D /* libc++.tbd */,
+				B7422D6825005EDC0015599D /* libz.tbd */,
 				07481F69D3C310D39F4679C5 /* Pods_CNAM_TV.framework */,
 			);
 			name = Frameworks;
@@ -57,6 +114,7 @@
 				B7E263852500547000A84E96 /* Products */,
 				EA49B9FC74A541B4916ABFD4 /* Pods */,
 				9ACB9C61BE29BC6754C6BCED /* Frameworks */,
+				B7422D6525005DC30015599D /* CNAM-TV-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,7 +146,6 @@
 				A0AE10CF4C3C39B1C53BD3F9 /* Pods-CNAM-TV.debug.xcconfig */,
 				DF81636DA929FF6D977FC97E /* Pods-CNAM-TV.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,6 +182,7 @@
 				TargetAttributes = {
 					B7E263832500547000A84E96 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -336,6 +394,7 @@
 			baseConfigurationReference = A0AE10CF4C3C39B1C53BD3F9 /* Pods-CNAM-TV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8A3SH72B3;
 				INFOPLIST_FILE = "CNAM-TV/Info.plist";
@@ -345,6 +404,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baloomba.CNAM-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CNAM-TV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +416,7 @@
 			baseConfigurationReference = DF81636DA929FF6D977FC97E /* Pods-CNAM-TV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8A3SH72B3;
 				INFOPLIST_FILE = "CNAM-TV/Info.plist";
@@ -364,6 +426,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baloomba.CNAM-TV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CNAM-TV-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Eureka-service/Eureka-service.iml" filepath="$PROJECT_DIR$/Eureka-service/Eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/Gateway.iml" filepath="$PROJECT_DIR$/gateway/Gateway.iml" />
     </modules>
   </component>
 </project>

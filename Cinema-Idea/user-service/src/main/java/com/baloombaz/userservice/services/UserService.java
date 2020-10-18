@@ -62,6 +62,11 @@ public class UserService {
         return registeredUser;
     }
 
+//    public void resetPassword(@Valid @RequestBody UserPasswordResetDTO user, Optional<User> userPasswordReset) {
+//        userPasswordReset.get().setPasswordHash(hashPassword(user.getNewPassword()));
+//        userRepository.save(userPasswordReset.get());
+//    }
+
     public long count()
     {
         return userRepository.count();

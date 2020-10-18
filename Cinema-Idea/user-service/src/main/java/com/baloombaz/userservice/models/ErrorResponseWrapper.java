@@ -7,7 +7,11 @@ public class ErrorResponseWrapper {
         this.error = error;
     }
 
+    public ErrorResponseWrapper(java.lang.Error error) {
+    }
+
     public ErrorResponseWrapper() {
+
     }
 
     public Error getError() {

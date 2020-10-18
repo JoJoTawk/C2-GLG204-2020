@@ -1,6 +1,7 @@
 package com.baloombaz.userservice.services;
 
 import com.baloombaz.userservice.controllers.dto.UserAccountDTO;
+import com.baloombaz.userservice.controllers.dto.UserPasswordResetDTO;
 import com.baloombaz.userservice.controllers.dto.UserRegistrationDTO;
 import com.baloombaz.userservice.models.Role;
 import com.baloombaz.userservice.models.User;
@@ -62,10 +63,10 @@ public class UserService {
         return registeredUser;
     }
 
-//    public void resetPassword(@Valid @RequestBody UserPasswordResetDTO user, Optional<User> userPasswordReset) {
-//        userPasswordReset.get().setPasswordHash(hashPassword(user.getNewPassword()));
-//        userRepository.save(userPasswordReset.get());
-//    }
+    public void resetPassword(@Valid @RequestBody UserPasswordResetDTO user, Optional<User> userPasswordReset) {
+        userPasswordReset.get().setPasswordHash(hashPassword(user.getNewPassword()));
+        userRepository.save(userPasswordReset.get());
+    }
 
     public long count()
     {

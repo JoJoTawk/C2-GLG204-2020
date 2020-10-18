@@ -26,4 +26,7 @@ Time To Add JWT to authenticate user
 MongoDB to store data
 Apache Kafka to notify Services
 
+
+install lombok on https://github.com/mplushnikov/lombok-intellij-plugin
+
 install them on docker and docker compose instead of installing them on my Mac :) (Docker for C1 also include this in the Video)
